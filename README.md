@@ -39,4 +39,24 @@ A machine learning-based solution designed to detect fraudulent financial transa
 ---
 
 ## 📁 Project Structure
+Fraud_Detection_System/
+├── data/                     # Folder to store raw or processed data (if not too large for version control)
+│   ├── raw/                  # Raw data files (e.g., CSV, Excel)
+│   └── processed/            # Processed data (e.g., cleaned, feature-engineered data)
+├── notebooks/                # Jupyter Notebooks for EDA, model training, and analysis
+│   ├── 01_EDA.ipynb          # Exploratory Data Analysis
+│   ├── 02_modeling.ipynb     # Model training and tuning
+│   └── 03_evaluation.ipynb   # Model performance evaluation
+├── models/                   # Folder for model files (saved models)
+│   ├── sklearn_best_model.pkl # Best performing model (Pickle format)
+│   └── model.pkl             # Another version of the model (Pickle format)
+├── src/                      # Python source code for preprocessing, training, evaluation, etc.
+│   ├── preprocess.py         # Data preprocessing (e.g., cleaning, scaling, encoding)
+│   ├── train.py              # Script for model training
+│   ├── evaluate.py           # Script for model evaluation and metrics
+│   └── utils.py              # Utility functions (e.g., helper functions for data loading)
+├── requirements.txt          # Python dependencies (e.g., scikit-learn, pandas)
+├── .gitignore                # Files to ignore by Git (e.g., models, data files)
+├── README.md                 # Project overview and instructions
+└── LICENSE                   # Project license (e.g., MIT License)
 
