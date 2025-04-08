@@ -68,9 +68,14 @@ Fraud_Detection_System/
 │   ├── train.py              # Script for model training
 
 │   ├── evaluate.py           # Script for model evaluation and metrics
+
 │   └── utils.py              # Utility functions (e.g., helper functions for data loading)
+
 ├── requirements.txt          # Python dependencies (e.g., scikit-learn, pandas)
+
 ├── .gitignore                # Files to ignore by Git (e.g., models, data files)
+
 ├── README.md                 # Project overview and instructions
+
 └── LICENSE                   # Project license (e.g., MIT License)
 
