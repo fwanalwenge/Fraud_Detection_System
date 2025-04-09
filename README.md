@@ -1,4 +1,4 @@
-# 🛡️ Fraud Detection System using Machine Learning
+# 🛡️ Fraud Detection System using AutoML in Microsoft Fabric
 
 A machine learning-based solution designed to detect fraudulent financial transactions. This project uses real-world-inspired data, advanced preprocessing, and supervised learning models to identify suspicious patterns and minimize false positives.
 
